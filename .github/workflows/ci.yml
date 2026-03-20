@@ -37,5 +37,5 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with: 
-        name: ml-artifacts-${{ matrix.python }}-${{github.run_id }}
-        path: artifacts
+          name: ml-artifacts-${{ matrix.python }}-${{github.run_id }}
+          path: artifacts
